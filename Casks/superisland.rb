@@ -1,9 +1,9 @@
 cask "superisland" do
-  version :latest
-  sha256 :no_check
-  arch arm: "arm64", intel: "amd64"
+  version : "1.0.7"
+  sha256 arm: "58cac70638abec0c95e638efd269874a4354c5a935c7ce9a70b52b5ca55982d6"
+  arch arm: "arm64"
 
-  url "https://github.com/shobhit99/superisland/releases/latest/download/SuperIsland-#{arch}.dmg",
+  url "https://github.com/shobhit99/superisland/releases/latest/download/SuperIsland.dmg",
       verified: "github.com/shobhit99/superisland/"
   name "SuperIsland"
   desc "Transform your Mac notch into a live, interactive island"
